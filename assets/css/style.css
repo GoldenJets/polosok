@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: pink;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    padding: 20px 30px;
+    color: rgb(26, 1, 187);
+    border: 2px solid rgb(26, 1, 187);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+
+.container h1:hover{
+    color: pink;
+    background-color: rgb(26, 1, 187);
+    transform: translateY(-5px);
+}
+
+.container-category a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    transition: .3s all ease-in;
+}
+
+.container-category a:hover{
+    color: rgb(26, 1, 187);
+}
+
+.container-category a:first-child{
+    margin-right: 20px;
+}
+
